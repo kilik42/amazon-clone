@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: #232f3e;
+  color: #fff;
+}
+
+.header__logo img {
+  height: 40px;
+  margin: 10px;
+}
+
+.header__nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav li {
+  margin: 0 10px;
+}
+
+.header__nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.header__nav a:hover {
+  border-bottom: 2px solid #fff;
+}
